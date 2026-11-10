@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="TV Big Fat Fish - a character that lives inside your television">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2FAFF"/>
+      <stop offset="52%" stop-color="#DCEFFF"/>
+      <stop offset="100%" stop-color="#BFE1FA"/>
+    </linearGradient>
+    <linearGradient id="fish" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#6FB2EA"/>
+      <stop offset="55%" stop-color="#4A8FD8"/>
+      <stop offset="100%" stop-color="#2F6BB0"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#123A63"/>
+      <stop offset="100%" stop-color="#2F7FC4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <!-- water ripples -->
+  <g fill="none" stroke="#8FC5EE" stroke-opacity="0.35">
+    <path d="M0 300 C 160 272, 280 328, 440 300 S 720 272, 900 300 S 1140 328, 1280 296" stroke-width="2"/>
+    <path d="M0 322 C 180 294, 300 350, 470 322 S 740 294, 920 322 S 1150 350, 1280 318" stroke-width="2"/>
+    <path d="M0 342 C 200 316, 320 368, 500 342 S 760 316, 940 342 S 1160 368, 1280 338" stroke-width="2"/>
+  </g>
+  <circle cx="1010" cy="182" r="190" fill="url(#glow)"/>
+  <ellipse cx="1010" cy="318" rx="150" ry="16" fill="#5C9FD6" opacity="0.16" filter="url(#soft)"/>
+
+  <!-- bubbles -->
+  <g fill="#FFFFFF" fill-opacity="0.72" stroke="#8FC5EE" stroke-opacity="0.55">
+    <circle cx="878" cy="92" r="11"/>
+    <circle cx="906" cy="58" r="6"/>
+    <circle cx="1152" cy="88" r="14"/>
+    <circle cx="1180" cy="52" r="7"/>
+    <circle cx="1196" cy="128" r="5"/>
+    <circle cx="852" cy="238" r="7"/>
+  </g>
+
+  <!-- original geometric round fish: no third-party character expression is reused -->
+  <g>
+    <path d="M1092 170 C 1150 128, 1188 126, 1196 138 C 1186 168, 1186 202, 1196 232 C 1180 244, 1146 232, 1092 202 Z" fill="#3C7CC4"/>
+    <ellipse cx="1006" cy="184" rx="116" ry="80" fill="url(#fish)"/>
+    <ellipse cx="1006" cy="212" rx="86" ry="48" fill="#DCEEFB" opacity="0.92"/>
+    <path d="M984 118 C 996 88, 1024 88, 1038 118 C 1020 110, 1002 110, 984 118 Z" fill="#5FA0E0"/>
+    <path d="M974 232 C 950 254, 950 274, 972 266 C 986 260, 992 244, 990 232 Z" fill="#5FA0E0"/>
+    <circle cx="962" cy="166" r="16" fill="#FFFFFF"/>
+    <circle cx="966" cy="168" r="8" fill="#17324F"/>
+    <circle cx="969" cy="164" r="3" fill="#FFFFFF"/>
+    <ellipse cx="930" cy="192" rx="13" ry="8" fill="#F2A0A8" opacity="0.65"/>
+    <path d="M1000 198 q 14 12 28 0" fill="none" stroke="#17324F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- headline -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="72" y="78" font-size="15" font-weight="700" letter-spacing="3.4" fill="#2F7FC4">OPEN SOURCE  ·  HOMAGE ONLY  ·  NON-COMMERCIAL</text>
+    <text x="68" y="160" font-size="66" font-weight="800" fill="url(#title)">TV Big Fat Fish</text>
+    <text x="72" y="206" font-size="23" font-weight="500" fill="#2C5B88">A character that lives inside your television.</text>
+    <text x="72" y="240" font-size="16" fill="#4C7899">Transparent overlay  ·  local wake word  ·  hide-and-seek state machine</text>
+
+    <g font-size="12.5" font-weight="700" letter-spacing="1">
+      <rect x="72" y="270" rx="6" width="92" height="27" fill="#123A63"/>
+      <text x="118" y="288" text-anchor="middle" fill="#FFFFFF">MIT CODE</text>
+      <rect x="174" y="270" rx="6" width="150" height="27" fill="#FFFFFF" stroke="#C2544E" stroke-width="1.2"/>
+      <text x="249" y="288" text-anchor="middle" fill="#C2544E">NC ARTWORK ONLY</text>
+      <rect x="334" y="270" rx="6" width="112" height="27" fill="#FFFFFF" stroke="#9CC7EA" stroke-width="1.2"/>
+      <text x="390" y="288" text-anchor="middle" fill="#2C5B88">ANDROID TV</text>
+      <rect x="456" y="270" rx="6" width="112" height="27" fill="#FFFFFF" stroke="#9CC7EA" stroke-width="1.2"/>
+      <text x="512" y="288" text-anchor="middle" fill="#2C5B88">PYTHON 3.9+</text>
+    </g>
+  </g>
+
+  <rect x="0" y="356" width="1280" height="4" fill="url(#title)"/>
+</svg>

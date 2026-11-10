@@ -411,7 +411,7 @@ PR 前请跑 `python3 tools/smoke_test.py`，并在描述里注明是否触及�
 
 **代码 MIT · 美术归原作者 · 全项目非商用。**
 
-见 [`LICENSE`](LICENSE) 与 [许可分层](#license-table)。一句话重申：**把代码开源，不会打破原作者对商用的约束；想商用，自己去争取美术作者的授权。**
+见 [`LICENSE`](LICENSE)、[`NOTICE.md`](NOTICE.md) 与 [许可分层](#license-table)。一句话重申：**把代码开源，不会打破原作者对商用的约束；想商用，自己去争取美术作者的授权。**
 
 <div align="center">
 

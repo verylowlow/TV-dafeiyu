@@ -19,26 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-SCOPE NOTE / 适用范围说明
-
-This MIT License applies ONLY to the source code in this repository
-(server/, android/, tools/ and build scripts).
-
-It does NOT apply to any character artwork, portraits, layered PNGs,
-frame sequences, derivative community character packs, screenshots,
-music, MMD/VMD motion data, or third-party video recordings.
-
-Character artwork rights remain with the original artists:
-  上善无形 (original character "溟月", CC BY-NC-SA 4.0),
-  ZipZipPipe (maid whale-girl derivative),
-  这个刀子真甜 (chibi "big fat fish" derivative),
-  and any other rights holders in that chain.
-
-Those materials are homages shown for non-commercial open-source purposes only.
-Open-sourcing the code does NOT waive, relax, or sublicense the original
-artists' restrictions on commercial use. Anyone wishing to use the artwork
-commercially must obtain written permission from the artists themselves.
-See README.md / README.en.md for the full notice.

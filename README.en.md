@@ -411,7 +411,7 @@ Run `python3 tools/smoke_test.py` before opening a PR, and state whether your ch
 
 **MIT for code · artwork belongs to its artists · non-commercial throughout.**
 
-See [`LICENSE`](LICENSE) and the [license matrix](#license-table). One last time: **open-sourcing the code does not break the artists' restrictions on commercial use. If you want to commercialize it, go get the artists' permission yourself.**
+See [`LICENSE`](LICENSE), [`NOTICE.md`](NOTICE.md), and the [license matrix](#license-table). One last time: **open-sourcing the code does not break the artists' restrictions on commercial use. If you want to commercialize it, go get the artists' permission yourself.**
 
 <div align="center">
 
